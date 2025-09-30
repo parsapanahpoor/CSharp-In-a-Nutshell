@@ -1,18 +1,26 @@
 # Introducing C# and .NET
 
+<div dir="ltr">
+
 C# is a general-purpose, type-safe, object-oriented programming language. The goal of the language is programmer productivity. To this end, C# balances simplicity, expressiveness, and performance. The chief architect of the language since its first version is Anders Hejlsberg (creator of Turbo Pascal and architect of Delphi). The C# language is platform neutral and works with a range of platform-specific runtimes.
+
+</div>
 
 ---
 
 ## ترجمه پاراگراف
+<div dir="rtl">
 
-C# یک زبان برنامه‌نویسی همه‌منظوره،  type-safe و  object-oriented است. هدف اصلی این زبان، افزایش بهره‌وری برنامه‌نویس‌هاست. برای رسیدن به این هدف، C# بین سادگی، بیان‌پذیری (expressiveness) و کارایی (performance) تعادل ایجاد می‌کند.  
-معمار اصلی این زبان از نسخه اول تاکنون آندرس هایلسبرگ بوده است - خالق Turbo Pascal و معمار Delphi.  
-زبان C# مستقل از پلتفرم است و می‌تواند با مجموعه‌ای از runtimeهای خاص هر پلتفرم کار کند.
+سی شارپ یک زبان برنامه‌نویسی همه‌منظوره، ایمن از نظر نوع (type-safe) و شیءگرا (object-oriented) است. هدف اصلی این زبان، افزایش بهره‌وری برنامه‌نویس‌هاست. برای رسیدن به این هدف، C# بین سادگی، بیان‌پذیری (expressiveness) و کارایی (performance) تعادل ایجاد می‌کند.
+معمار اصلی این زبان از نسخه اول تاکنون آندرس هایلسبرگ بوده است (خالق Turbo Pascal و معمار Delphi).
+زبان C# مستقل از پلتفرم است و می‌تواند با مجموعه‌ای از runtimeهای خاص هر پلتفرم کار کند
+
+<div >
 
 ---
 
 ## توضیحات تکمیلی و نکات ارائه
+<div dir="rtl">
 
 ### General-purpose
 یعنی C# محدود به یک نوع نرم‌افزار خاص نیست؛ میشه باهاش وب‌اپلیکیشن، اپلیکیشن موبایل، دسکتاپ، بازی، سیستم‌های توزیع‌شده و حتی هوش مصنوعی نوشت.
@@ -27,17 +35,20 @@ C# یک زبان برنامه‌نویسی همه‌منظوره،  type-safe و
 پشتیبانی از مفاهیمی مثل ارث‌بری، پلی‌مورفیسم، کپسوله‌سازی.
 
 ### Programmer Productivity
-C# کمک میکنه برنامه‌نویس سریع‌تر، راحت‌تر و با خطای کمتر کد بزنه.  
-IntelliSense، کتابخانه‌های آماده، و syntax ساده → همه در همین راستا طراحی شدن.
+سی شارپ کمک میکنه برنامه‌نویس سریع‌تر، راحت‌تر و با خطای کمتر کد بزنه.  IntelliSense ، کتابخانه‌های آماده، و syntax ساده → همه در همین راستا طراحی شدن.
 
 ### Platform Neutral
-C# خودش مستقل از پلتفرمه.  
+سی شارپ خودش مستقل از پلتفرمه.  
 چیزی که تغییر می‌کنه runtimeها هستن - مثلاً .NET Framework روی ویندوز، .NET 8 روی همه سیستم‌ها، Unity runtime برای بازی‌ها.  
 یعنی یک زبان، اما چند محیط اجرا.
+
+</div>
 
 ---
 
 # Object Orientation
+
+<div dir="ltr">
 
 C# is a rich implementation of the object-orientation paradigm, which includes encapsulation, inheritance, and polymorphism. Encapsulation means creating a boundary around an object to separate its external (public) behavior from its inter nal (private) implementation details. Following are the distinctive features of C# from an object-oriented perspective:
 
@@ -58,13 +69,16 @@ Although C# is primarily an object-oriented language, it also borrows from the f
 - C# has key features to help with those patterns, including the ability to write unnamed functions on the fly that “capture” variables (lambda expressions), and the ability to perform list or reactive programming via query expressions.  
 - C# also provides records, which make it easy to write immutable (read-only) types.
 
+</div>
+
 ---
 
 ## ترجمه پاراگراف
+<div dir="rtl">
 
 ### شیءگرایی
-C# پیاده‌سازی غنی‌ای از پارادایم شیءگرایی ارائه می‌دهد که شامل encapsulation،  inheritance و polymorphism است.  
-encapsulation یعنی ایجاد یک مرز به دور یک شیء برای جداسازی رفتار بیرونی (عمومی) آن از جزئیات پیاده‌سازی درونی (خصوصی).
+زبانC# پیاده‌سازی غنی‌ای از پارادایم شیءگرایی ارائه می‌دهد که شامل encapsulation،  inheritance و polymorphism است.  
+اصل encapsulation یعنی ایجاد یک مرز به دور یک شیء برای جداسازی رفتار بیرونی (عمومی) آن از جزئیات پیاده‌سازی درونی (خصوصی).
 
 ---
 
@@ -91,3 +105,5 @@ Properties اعضایی هستند که بخشی از حالت یک شیء را 
 - **Lambda expressions**: امکان نوشتن توابع بی‌نام در لحظه که متغیرها را “capture” می‌کنند.  
 - **Query expressions**: امکان برنامه‌نویسی لیستی یا واکنشی (reactive) از طریق query expressions.  
 - **Records**: نوشتن انواع تغییرناپذیر (immutable) یا فقط خواندنی را ساده می‌کند.
+
+</div>
