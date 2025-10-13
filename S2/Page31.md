@@ -36,8 +36,10 @@ ples in conjunction with the book accelerates learning in that
 ```csharp
 int x = 12 * 30;                  // Statement 1
 System.Console.WriteLine (x);     // Statement 2
+```
 
 برنامه ما از دو statement تشکیل شده است. statement‌ها در C# به ترتیب اجرا می‌شوند و با semicolon خاتمه می‌یابند. statement اول expression به صورت `12 * 30` را محاسبه می‌کند و نتیجه را در یک variable به نام x ذخیره می‌کند که type آن یک integer 32-بیتی (int) است.
 statement دوم method به نام WriteLine را روی class ای به نام Console فراخوانی می‌کند که در namespace ای به نام System تعریف شده است. این کار variable به نام x را در یک پنجره متنی روی صفحه نمایش چاپ می‌کند.
 
 یک method یک تابع را انجام می‌دهد؛ یک class، function member‌ها و data member‌ها را گروه‌بندی می‌کند تا یک بلوک سازنده شی‌گرا تشکیل دهد. class به نام Console، member‌هایی را گروه‌بندی می‌کند که عملکرد input/output (I/O) خط فرمان را مدیریت می‌کنند، مانند method به نام WriteLine. یک class نوعی type است که آن را در "Type Basics" در صفحه 36 بررسی می‌کنیم.
+
