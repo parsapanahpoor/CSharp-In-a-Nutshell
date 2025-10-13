@@ -84,11 +84,13 @@ public UnitConverter (int unitRatio) { ratio = unitRatio; }
 
 ## Instance در مقابل Static Members
 
-data members و function members که روی نمونهٔ (instance) type عمل می‌کنند، instance members نامیده می‌شوند. متد Convert از UnitConverter و متد ToString از int نمونه‌هایی از instance members هستند. به طور پیش‌فرض، memberها instance members هستند.
+اعضای data members و function members که روی نمونهٔ (instance) type عمل می‌کنند، instance members نامیده می‌شوند. متد Convert از UnitConverter و متد ToString از int نمونه‌هایی از instance members هستند. به طور پیش‌فرض، memberها instance members هستند.
 
-data members و function members که روی نمونهٔ type عمل نمی‌کنند، می‌توانند به عنوان static علامت‌گذاری شوند. برای ارجاع به یک static member از خارج type آن، نام type را به جای یک نمونه مشخص می‌کنید. یک مثال، متد WriteLine از class به نام Console است. از آنجا که این متد static است، `Console.WriteLine()` را فراخوانی می‌کنیم و نه `new Console().WriteLine()`.
 
-(class به نام Console در واقع به عنوان یک static class اعلان شده است، که به این معنی است که تمام memberهای آن static هستند و هرگز نمی‌توانید نمونه‌هایی از Console ایجاد کنید.)
+
+اعضایdata members و function members که روی نمونهٔ type عمل نمی‌کنند، می‌توانند به عنوان static علامت‌گذاری شوند. برای ارجاع به یک static member از خارج type آن، نام type را به جای یک نمونه مشخص می‌کنید. یک مثال، متد WriteLine از class به نام Console است. از آنجا که این متد static است، `Console.WriteLine()` را فراخوانی می‌کنیم و نه `new Console().WriteLine()`.
+
+(کلاسی به نام Console در واقع به عنوان یک static class اعلان شده است، که به این معنی است که تمام memberهای آن static هستند و هرگز نمی‌توانید نمونه‌هایی از Console ایجاد کنید.)
 
 در کد زیر، instance field به نام Name به یک نمونه از یک Panda خاص مربوط می‌شود، در حالی که Population به مجموعهٔ تمام نمونه‌های Panda مربوط می‌شود. دو نمونه از Panda ایجاد می‌کنیم، نام آن‌ها را چاپ می‌کنیم، و سپس جمعیت کل را چاپ می‌کنیم:
 
