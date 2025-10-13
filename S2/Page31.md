@@ -13,7 +13,7 @@ ples in conjunction with the book accelerates learning in that
 تقریباً تمام نمونه کدهای موجود در این کتاب به صورت نمونه‌های تعاملی در LINQPad در دسترس هستند. کار کردن با این نمونه‌ها همراه با کتاب، یادگیری را تسریع می‌کند، چرا که می‌توانید نمونه‌ها را ویرایش کنید و بلافاصله نتایج را ببینید بدون اینکه نیازی به راه‌اندازی project‌ها و solution‌ها در Visual Studio داشته باشید.
 برای دانلود نمونه‌ها، در LINQPad، روی تب Samples کلیک کنید و سپس روی "Download more samples" کلیک کنید. LINQPad رایگان است—به http://www.linqpad.net مراجعه کنید.
 
- A First C# Program
+ ## A First C# Program
  Following is a program that multiplies 12 by 30 and prints the result, 360, to
  the screen. The double forward slash indicates that the remainder of a line is a
  comment:
@@ -42,4 +42,5 @@ System.Console.WriteLine (x);     // Statement 2
 statement دوم method به نام WriteLine را روی class ای به نام Console فراخوانی می‌کند که در namespace ای به نام System تعریف شده است. این کار variable به نام x را در یک پنجره متنی روی صفحه نمایش چاپ می‌کند.
 
 یک method یک تابع را انجام می‌دهد؛ یک class، function member‌ها و data member‌ها را گروه‌بندی می‌کند تا یک بلوک سازنده شی‌گرا تشکیل دهد. class به نام Console، member‌هایی را گروه‌بندی می‌کند که عملکرد input/output (I/O) خط فرمان را مدیریت می‌کنند، مانند method به نام WriteLine. یک class نوعی type است که آن را در "Type Basics" در صفحه 36 بررسی می‌کنیم.
+
 
