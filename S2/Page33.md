@@ -17,6 +17,8 @@ ments (called top-level statements). The presence of top-level statements implic
 
 هر یک از برنامه‌ها در بخش قبلی مستقیماً با یک سری statement شروع می‌شدند (که به آن‌ها top-level statements می‌گویند). وجود top-level statements به صورت ضمنی یک entry point برای یک application از نوع console یا Windows ایجاد می‌کند. (بدون top-level statements، یک متد Main نشان‌دهندهٔ entry point یک application است—به "Custom Types" در صفحهٔ 37 مراجعه کنید.)
 
+
+
 Unlike .NET Framework, .NET 8 assemblies never have a .exe
  extension. The .exe that you see after building a .NET 8
  application is a platform-specific native loader responsible for
@@ -31,6 +33,8 @@ Unlike .NET Framework, .NET 8 assemblies never have a .exe
  برخلاف .NET Framework، assembly‌های .NET 8 هرگز پسوند .exe ندارند. فایل .exe که پس از build کردن یک application از نوع .NET 8 می‌بینید، یک native loader مختص پلتفرم است که مسئول راه‌اندازی assembly با پسوند .dll برنامهٔ شماست.
 
 همچنین .NET 8 به شما اجازه می‌دهد یک self-contained deployment ایجاد کنید که شامل loader، assembly‌های شما، و بخش‌های مورد نیاز از .NET runtime است—همهٔ این‌ها در یک فایل .exe واحد. .NET 8 همچنین اجازهٔ کامپایل ahead-of-time (AOT) را می‌دهد، جایی که فایل اجرایی شامل کد native از پیش کامپایل‌شده است برای startup سریع‌تر و کاهش مصرف حافظه.
+
+
 The dotnet tool (dotnet.exe on Windows) helps you to manage .NET source code
  and binaries from the command line. You can use it to both build and run your
  program, as an alternative to using an integrated development environment (IDE)
