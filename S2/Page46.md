@@ -27,9 +27,10 @@ The System.IntPtr and System.UIntPtr types are also primitive (see Chapter 24).
 
 ### Predefined Type Taxonomy
 
-typeهای از پیش تعریف شده در C# به شرح زیر هستند:
+نوعtypeهای از پیش تعریف شده در C# به شرح زیر هستند:
 
 **Value types**
+
 • عددی (Numeric)
   — اعداد صحیح علامت‌دار (sbyte, short, int, long)
   — اعداد صحیح بدون علامت (byte, ushort, uint, ulong)
@@ -38,6 +39,7 @@ typeهای از پیش تعریف شده در C# به شرح زیر هستند:
 • کاراکتر (char)
 
 **Reference types**
+
 • رشته (string)
 • شیء (object)
 
