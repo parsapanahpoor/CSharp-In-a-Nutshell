@@ -40,7 +40,7 @@ short z = (short)x; // Explicit conversion to 16-bit integral type
 
 ## Numeric suffixes
 
-suffixهای عددی به صورت صریح type یک literal را تعریف می‌کنند. suffixها می‌توانند کوچک یا بزرگ باشند و به شرح زیر هستند:
+پسوند (suffix)های عددی به صورت صریح type یک literal را تعریف می‌کنند. suffixها می‌توانند کوچک یا بزرگ باشند و به شرح زیر هستند:
 
 | Suffix | Type | مثال |
 |--------|------|------|
