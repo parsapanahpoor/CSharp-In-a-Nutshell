@@ -22,6 +22,17 @@
  conversion are prohibited. Conversions that involve generics can also fail in certain
  conditions—see “Type Parameters and Conversions” on page 166.)
 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+ The numeric conversions that we just saw are built into the
+ language. C# also supports reference conversions and boxing
+ conversions (see Chapter 3) as well as custom conversions (see
+ “Operator Overloading” on page 256). The compiler doesn’t
+ enforce the aforementioned rules with custom conversions, so
+ it’s possible for badly designed types to behave otherwise.
+
  ## Types و Conversions
 
 سی شارپ می‌تواند بین نمونه‌های (instances) typeهای سازگار تبدیل انجام دهد. یک conversion همیشه یک مقدار جدید از یک مقدار موجود ایجاد می‌کند. Conversionها می‌توانند implicit یا explicit باشند: conversionهای implicit به صورت خودکار اتفاق می‌افتند، و conversionهای explicit نیاز به یک cast دارند.
@@ -46,11 +57,6 @@ short z = (short)x;  // Explicit conversion to 16-bit integer
 (اگر کامپایلر بتواند تشخیص دهد که یک conversion همیشه شکست خواهد خورد، هر دو نوع conversion ممنوع هستند. Conversionهایی که شامل generics هستند نیز می‌توانند در شرایط خاصی شکست بخورند—به "Type Parameters and Conversions" در صفحه 166 مراجعه کنید.)
 
 
- The numeric conversions that we just saw are built into the
- language. C# also supports reference conversions and boxing
- conversions (see Chapter 3) as well as custom conversions (see
- “Operator Overloading” on page 256). The compiler doesn’t
- enforce the aforementioned rules with custom conversions, so
- it’s possible for badly designed types to behave otherwise.
+--------------------------------------------------------------------------------------------------------------------------------------
 
 تبدیل Conversionهای عددی که همین الان دیدیم در زبان تعبیه شده‌اند (built into). C# همچنین از reference conversions و boxing conversions (به فصل 3 مراجعه کنید) و همچنین custom conversions (به "Operator Overloading" در صفحه 256 مراجعه کنید) پشتیبانی می‌کند. کامپایلر قوانین پیش‌گفته را با custom conversions اجرا (enforce) نمی‌کند، بنابراین ممکن است typeهای طراحی شده به صورت نامناسب رفتار متفاوتی داشته باشند.
