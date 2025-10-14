@@ -11,6 +11,28 @@ If you really want to use an identifier that clashes with a reserved keyword, yo
  With contextual keywords, ambiguity cannot arise within the context in which they
  are used. 
 
+## Literals, Punctuators, and Operators
+ Literals are primitive pieces of data lexically embedded into the program. The
+ literals we used in our example program are 12 and 30.
+ Punctuators help demarcate the structure of the program. An example is the semi
+colon, which terminates a statement. Statements can wrap multiple lines:
+ Console.WriteLine
+  (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10);
+ An operator transforms and combines expressions. Most operators in C# are deno
+ted with a symbol, such as the multiplication operator, *. We discuss operators in
+ more detail later in this chapter. These are the operators we used in our example
+ program:
+ =  *  .  ()
+ A period denotes a member of something (or a decimal point with numeric literals).
+ Parentheses are used when declaring or calling a method; empty parentheses are
+ used when the method accepts no arguments. (Parentheses also have other purposes
+ that you’ll see later in this chapter.) An equals sign performs assignment. (The
+ double equals sign, ==, performs equality comparison, as you’ll see later.)
+
+
+
+ 
+
  اگر واقعاً می‌خواهید از یک identifier استفاده کنید که با یک keyword رزرو شده تضاد دارد، می‌توانید با قرار دادن پیشوند @ انجام دهید. برای مثال:
 ```csharp
 int using = 123;      // غیر قانونی
@@ -34,23 +56,7 @@ var          with         when         where        yield
 
 با contextual keywords، هیچ ابهامی در زمینهٔ استفاده از آن‌ها بوجود نمی‌آید.
 
-## Literals, Punctuators, and Operators
- Literals are primitive pieces of data lexically embedded into the program. The
- literals we used in our example program are 12 and 30.
- Punctuators help demarcate the structure of the program. An example is the semi
-colon, which terminates a statement. Statements can wrap multiple lines:
- Console.WriteLine
-  (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10);
- An operator transforms and combines expressions. Most operators in C# are deno
-ted with a symbol, such as the multiplication operator, *. We discuss operators in
- more detail later in this chapter. These are the operators we used in our example
- program:
- =  *  .  ()
- A period denotes a member of something (or a decimal point with numeric literals).
- Parentheses are used when declaring or calling a method; empty parentheses are
- used when the method accepts no arguments. (Parentheses also have other purposes
- that you’ll see later in this chapter.) An equals sign performs assignment. (The
- double equals sign, ==, performs equality comparison, as you’ll see later.)
+
 
 ## Literals، Punctuators و Operators
 
