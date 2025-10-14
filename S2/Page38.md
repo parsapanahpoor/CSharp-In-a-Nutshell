@@ -5,7 +5,6 @@ ing small test programs. With larger programs, the standard
  approach is to put the class definition in a separate file such as
  UnitConverter.cs. 
 
- در این مثال، تعریف class ما در همان فایلی که top-level statements قرار دارند ظاهر می‌شود. این کار مجاز است—تا زمانی که top-level statements ابتدا ظاهر شوند—و هنگام نوشتن برنامه‌های تستی کوچک قابل قبول است. با برنامه‌های بزرگ‌تر، رویکرد استاندارد این است که تعریف class را در یک فایل جداگانه مانند `UnitConverter.cs` قرار دهید.
 
 ## Members of a type
  A type contains data members and function members. The data member of
@@ -61,6 +60,14 @@ ing small test programs. With larger programs, the standard
  
 Attempting to evaluate p1.Population or Panda.Name will generate a compile-time
  error.
+
+-----------------------------------------------------------------------------------------------------------------------
+ 
+ 
+
+ در این مثال، تعریف class ما در همان فایلی که top-level statements قرار دارند ظاهر می‌شود. این کار مجاز است—تا زمانی که top-level statements ابتدا ظاهر شوند—و هنگام نوشتن برنامه‌های تستی کوچک قابل قبول است. با برنامه‌های بزرگ‌تر، رویکرد استاندارد این است که تعریف class را در یک فایل جداگانه مانند `UnitConverter.cs` قرار دهید.
+
+
 
  ## اعضای یک Type
 
