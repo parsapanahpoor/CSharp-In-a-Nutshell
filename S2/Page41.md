@@ -1,10 +1,7 @@
 (The Main method can also be declared async and return a Task or Task<int> in
  support of asynchronous programming, which we cover in Chapter 14.)
 
-(متد Main همچنین می‌تواند به صورت async اعلان شود و یک `Task` یا `Task<int>` را برای پشتیبانی از برنامه‌نویسی ناهمزمان (asynchronous programming) برگرداند، که آن را در فصل 14 پوشش می‌دهیم.)
-
-
-## Top-Level Statements
+ ## Top-Level Statements
  Top-level statements (introduced in C# 9) let you avoid the baggage of a static Main
  method and a containing class. A file with top-level statements comprises three
  parts, in this order:
@@ -14,6 +11,15 @@
  3.
  2.
  3. (Optionally) Type and namespace declarations
+
+
+
+
+
+(متد Main همچنین می‌تواند به صورت async اعلان شود و یک `Task` یا `Task<int>` را برای پشتیبانی از برنامه‌نویسی ناهمزمان (asynchronous programming) برگرداند، که آن را در فصل 14 پوشش می‌دهیم.)
+
+
+
 
 ## Top-Level Statements
 
