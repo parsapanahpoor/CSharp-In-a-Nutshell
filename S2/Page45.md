@@ -1,4 +1,5 @@
  ## Null
+ 
  A reference can be assigned the literal null, indicating that the reference points to
  no object:
  Point p = null;
