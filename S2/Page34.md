@@ -1,20 +1,11 @@
- ##Syntax
+## Syntax
  C# syntax is inspired by C and C++ syntax. In this section, we describe C#’s
  elements of syntax, using the following program:
  using System;
  int x = 12 * 30;
  Console.WriteLine (x);
 
- ## Syntax
-
-سینتکس C# از سینتکس C و C++ الهام گرفته شده است. در این بخش، عناصر syntax زبان C# را با استفاده از برنامهٔ زیر توضیح می‌دهیم:
-```csharp
-using System;
-int x = 12 * 30;
-Console.WriteLine (x);
-```
-
- ## Identifiers and Keywords
+## Identifiers and Keywords
  Identifiers are names that programmers choose for their classes, methods, variables,
  and so on. Here are the identifiers in our example program, in the order in which
  they appear:
@@ -31,6 +22,16 @@ Console.WriteLine (x);
  as
  base
  bool....
+
+ ## Syntax
+
+سینتکس C# از سینتکس C و C++ الهام گرفته شده است. در این بخش، عناصر syntax زبان C# را با استفاده از برنامهٔ زیر توضیح می‌دهیم:
+```csharp
+using System;
+int x = 12 * 30;
+Console.WriteLine (x);
+```
+
 
  ## Identifiers و Keywords
 
