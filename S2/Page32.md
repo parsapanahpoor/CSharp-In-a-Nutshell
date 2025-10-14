@@ -21,6 +21,29 @@ At the outermost level, types are organized into namespaces. Many commonly used
  return inches;
  }
 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our method contains a series of statements surrounded by a pair of braces. This is
+ called a statement block.
+ A method can receive input data from the caller by specifying parameters and output
+ data back to the caller by specifying a return type. Our FeetToInches method has a
+ parameter for inputting feet, and a return type for outputting inches:
+ int FeetToInches (int feet)
+ ...
+ The literals 30 and 100 are the arguments passed to the FeetToInches method.
+ If a method doesn’t receive input, use empty parentheses. If it doesn’t return any
+thing, use the void keyword:
+ using System;
+ SayHello();
+ void SayHello()
+ {
+  Console.WriteLine ("Hello, world");
+ }
+ Methods are one of several kinds of functions in C#. Another kind of function we
+ used in our example program was the * operator, which performs multiplication.
+ There are also constructors, properties, events, indexers, and finalizers
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 در سطح بیرونی‌ترین، type‌ها در namespace‌ها سازماندهی می‌شوند. بسیاری از type‌های رایج—از جمله class به نام Console—در namespace به نام System قرار دارند. کتابخانه‌های .NET در namespace‌های تو در تو سازماندهی شده‌اند. به عنوان مثال، namespace به نام System.Text شامل type‌هایی برای مدیریت متن است، و System.IO شامل type‌هایی برای input/output است.
 
@@ -44,25 +67,9 @@ return inches;
 }
 ```
 
-Our method contains a series of statements surrounded by a pair of braces. This is
- called a statement block.
- A method can receive input data from the caller by specifying parameters and output
- data back to the caller by specifying a return type. Our FeetToInches method has a
- parameter for inputting feet, and a return type for outputting inches:
- int FeetToInches (int feet)
- ...
- The literals 30 and 100 are the arguments passed to the FeetToInches method.
- If a method doesn’t receive input, use empty parentheses. If it doesn’t return any
-thing, use the void keyword:
- using System;
- SayHello();
- void SayHello()
- {
-  Console.WriteLine ("Hello, world");
- }
- Methods are one of several kinds of functions in C#. Another kind of function we
- used in our example program was the * operator, which performs multiplication.
- There are also constructors, properties, events, indexers, and finalizers
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 متد ما شامل یک سری statement است که توسط یک جفت brace محصور شده‌اند. به این statement block گفته می‌شود.
 
