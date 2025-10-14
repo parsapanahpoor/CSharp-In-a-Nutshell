@@ -1,11 +1,13 @@
- The public keyword
+## The public keyword
  The public keyword exposes members to other classes. In this example, if the Name
  field in Panda was not marked as public, it would be private and could not be
  accessed from outside the class. Marking a member public is how a type communi
 cates: “Here is what I want other types to see—everything else is my own private
  implementation details.” In object-oriented terms, we say that the public members
  encapsulate the private members of the class.
- Defining namespaces
+
+ 
+## Defining namespaces
  Particularly with larger programs, it makes sense to organize types into namespaces.
  Here’s how to define the Panda class inside a namespace called Animals:
  using System;
