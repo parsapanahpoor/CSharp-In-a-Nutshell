@@ -9,6 +9,30 @@
  •
  • Pointer types
 
+
+## Value types
+ The content of a value type variable or constant is simply a value. For example, the
+ content of the built-in value type, int, is 32 bits of data.
+ You can define a custom value type with the struct keyword (see Figure 2-1):
+ public struct Point { public int X; public int Y; }
+ Or more tersely:
+ public struct Point { public int X, Y; }
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+ The assignment of a value-type instance always copies the instance; for example:
+ Point p1 = new Point();
+ p1.X = 7;
+ Point p2 = p1;             // Assignment causes copy
+ Console.WriteLine (p1.X);  // 7
+ Console.WriteLine (p2.X);  // 7
+
+ 
+
+
+
+
  ## Value Types در مقابل Reference Types
 
 تمام typeهای C# در دسته‌بندی‌های زیر قرار می‌گیرند:
@@ -25,13 +49,7 @@
 مقادیر Reference types شامل تمام typeهای `class`، `array`، `delegate`، و `interface` می‌شوند. (این شامل نوع از پیش تعریف شدهٔ `string` نیز می‌شود.)
 
 تفاوت اساسی بین value types و reference types نحوهٔ مدیریت آن‌ها در حافظه است.
-## Value types
- The content of a value type variable or constant is simply a value. For example, the
- content of the built-in value type, int, is 32 bits of data.
- You can define a custom value type with the struct keyword (see Figure 2-1):
- public struct Point { public int X; public int Y; }
- Or more tersely:
- public struct Point { public int X, Y; }
+
 
  ### Value types
 
@@ -48,12 +66,7 @@ public struct Point { public int X, Y; }
 ```
 
 
- The assignment of a value-type instance always copies the instance; for example:
- Point p1 = new Point();
- p1.X = 7;
- Point p2 = p1;             // Assignment causes copy
- Console.WriteLine (p1.X);  // 7
- Console.WriteLine (p2.X);  // 7
+-------------------------------------------------------------------------------------------------------------------
 
 
  انتساب (assignment) یک نمونهٔ value-type همیشه آن نمونه را کپی می‌کند؛ برای مثال:
