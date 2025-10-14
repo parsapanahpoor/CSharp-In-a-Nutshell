@@ -11,13 +11,7 @@ ments (called top-level statements). The presence of top-level statements implic
  statements, a Main method denotes an application’s entry point—see “Custom
  Types” on page 37.)
 
-## کامپایل
-
-کامپایلر C# کد منبع (مجموعه‌ای از فایل‌ها با پسوند .cs) را به یک assembly تبدیل می‌کند. یک assembly واحد بسته‌بندی و استقرار در .NET است. یک assembly می‌تواند یک application یا یک library باشد. یک application معمولی console یا Windows دارای یک entry point است، در حالی که یک library ندارد. هدف یک library این است که توسط یک application یا library‌های دیگر فراخوانی (reference) شود. خود .NET مجموعه‌ای از library‌هاست (و همچنین یک runtime environment).
-
-هر یک از برنامه‌ها در بخش قبلی مستقیماً با یک سری statement شروع می‌شدند (که به آن‌ها top-level statements می‌گویند). وجود top-level statements به صورت ضمنی یک entry point برای یک application از نوع console یا Windows ایجاد می‌کند. (بدون top-level statements، یک متد Main نشان‌دهندهٔ entry point یک application است—به "Custom Types" در صفحهٔ 37 مراجعه کنید.)
-
-
+----------------------------------------------------------------------------------------------------------
 
 Unlike .NET Framework, .NET 8 assemblies never have a .exe
  extension. The .exe that you see after building a .NET 8
@@ -30,9 +24,7 @@ Unlike .NET Framework, .NET 8 assemblies never have a .exe
  executable contains precompiled native code for faster startup
  and reduced memory consumption.
 
- برخلاف .NET Framework، assembly‌های .NET 8 هرگز پسوند .exe ندارند. فایل .exe که پس از build کردن یک application از نوع .NET 8 می‌بینید، یک native loader مختص پلتفرم است که مسئول راه‌اندازی assembly با پسوند .dll برنامهٔ شماست.
-
-همچنین .NET 8 به شما اجازه می‌دهد یک self-contained deployment ایجاد کنید که شامل loader، assembly‌های شما، و بخش‌های مورد نیاز از .NET runtime است—همهٔ این‌ها در یک فایل .exe واحد. .NET 8 همچنین اجازهٔ کامپایل ahead-of-time (AOT) را می‌دهد، جایی که فایل اجرایی شامل کد native از پیش کامپایل‌شده است برای startup سریع‌تر و کاهش مصرف حافظه.
+----------------------------------------------------------------------------------------------------------
 
 
 The dotnet tool (dotnet.exe on Windows) helps you to manage .NET source code
@@ -55,6 +47,25 @@ gram folder:
  dotnet build MyFirstProgram.csproj
  The output assembly will be written to a subdirectory under bin\debug.
  We explain assemblies in detail in Chapter 17
+
+ 
+
+## کامپایل
+
+کامپایلر C# کد منبع (مجموعه‌ای از فایل‌ها با پسوند .cs) را به یک assembly تبدیل می‌کند. یک assembly واحد بسته‌بندی و استقرار در .NET است. یک assembly می‌تواند یک application یا یک library باشد. یک application معمولی console یا Windows دارای یک entry point است، در حالی که یک library ندارد. هدف یک library این است که توسط یک application یا library‌های دیگر فراخوانی (reference) شود. خود .NET مجموعه‌ای از library‌هاست (و همچنین یک runtime environment).
+
+هر یک از برنامه‌ها در بخش قبلی مستقیماً با یک سری statement شروع می‌شدند (که به آن‌ها top-level statements می‌گویند). وجود top-level statements به صورت ضمنی یک entry point برای یک application از نوع console یا Windows ایجاد می‌کند. (بدون top-level statements، یک متد Main نشان‌دهندهٔ entry point یک application است—به "Custom Types" در صفحهٔ 37 مراجعه کنید.)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ برخلاف .NET Framework، assembly‌های .NET 8 هرگز پسوند .exe ندارند. فایل .exe که پس از build کردن یک application از نوع .NET 8 می‌بینید، یک native loader مختص پلتفرم است که مسئول راه‌اندازی assembly با پسوند .dll برنامهٔ شماست.
+
+همچنین .NET 8 به شما اجازه می‌دهد یک self-contained deployment ایجاد کنید که شامل loader، assembly‌های شما، و بخش‌های مورد نیاز از .NET runtime است—همهٔ این‌ها در یک فایل .exe واحد. .NET 8 همچنین اجازهٔ کامپایل ahead-of-time (AOT) را می‌دهد، جایی که فایل اجرایی شامل کد native از پیش کامپایل‌شده است برای startup سریع‌تر و کاهش مصرف حافظه.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  ابزار dotnet (dotnet.exe در Windows) به شما کمک می‌کند تا کد منبع و فایل‌های باینری .NET را از command line مدیریت کنید. می‌توانید از آن برای build و اجرای برنامه‌تان استفاده کنید، به عنوان جایگزینی برای استفاده از یک integrated development environment (IDE) مانند Visual Studio یا Visual Studio Code.
 
