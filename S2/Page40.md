@@ -1,4 +1,4 @@
- Defining a Main method
+## Defining a Main method
  All of our examples, so far, have used top-level statements (a feature introduced in
  C# 9).
  Without top-level statements, a simple console or Windows application looks like
@@ -21,6 +21,15 @@
  as a parameter (that will be populated with any arguments passed to the executable).
  For example:
  static int Main (string[] args) {...}
+
+-------------------------------------------------------------------------------------------------------------------
+
+ An array (such as string[]) represents a fixed number of
+ elements of a particular type. Arrays are specified by placing
+ square brackets after the element type. We describe them in
+ “Arrays” on page 61.
+ 
+ 
 
  ## تعریف متد Main
 
@@ -47,9 +56,6 @@ Console.WriteLine (x);
 static int Main (string[] args) {...}
 ```
 
- An array (such as string[]) represents a fixed number of
- elements of a particular type. Arrays are specified by placing
- square brackets after the element type. We describe them in
- “Arrays” on page 61.
+--------------------------------------------------------------------------------------------------------------------------------------
 
  یک آرایه (مانند `string[]`) تعداد ثابتی از عناصر یک type خاص را نشان می‌دهد. آرایه‌ها با قرار دادن براکت‌های مربعی (square brackets) بعد از type عنصر مشخص می‌شوند. آن‌ها را در "Arrays" در صفحه 61 توضیح می‌دهیم.
