@@ -9,20 +9,6 @@
  Comments can embed XML documentation tags, which we explain in “XML Docu
 mentation” on page 272.
 
-## Comments
-
-زبان C# دو سبک متفاوت برای مستندسازی کد منبع ارائه می‌دهد: کامنت‌های تک‌خطی (single-line comments) و کامنت‌های چندخطی (multiline comments). یک single-line comment با دو اسلش رو به جلو شروع می‌شود و تا پایان خط ادامه می‌یابد؛ به عنوان مثال:
-```csharp
-int x = 3;   // Comment about assigning 3 to x
-```
-یک multiline comment با `/*` شروع و با `*/` خاتمه می‌یابد؛ به عنوان مثال:
-
-``` csharp
-int x = 3;   /* This is a comment that
-spans two lines */
-```
-کامنت‌ها می‌توانند تگ‌های مستندسازی XML را در خود جای‌گذاری کنند، که ما آن‌ها را در "XML Documentation" در صفحهٔ 272 توضیح می‌دهیم.
-
 
  ## Type Basics
  A type defines the blueprint for a value. In this example, we use two literals of type
@@ -30,21 +16,14 @@ spans two lines */
  int x = 12 * 30;
  Console.WriteLine (x);
 
-
- ## Type Basics
-
-یک type الگوی اولیه (blueprint) برای یک مقدار را تعریف می‌کند. در این مثال، از دو literal از نوع int با مقادیر 12 و 30 استفاده می‌کنیم. همچنین یک متغیر از نوع int به نام x تعریف می‌کنیم:
-```csharp
-int x = 12 * 30;
-Console.WriteLine (x);
-```
+---------------------------------------------------------------------------------------------------
 
  Because most of the code listings in this book require types
  from the System namespace, we will omit “using System”
  from now on, unless we’re illustrating a concept relating to
  namespaces
 
- از آنجا که بیشتر نمونه‌کدهای این کتاب به type‌هایی از namespace به نام System نیاز دارند، از این به بعد "using System" را حذف خواهیم کرد، مگر اینکه مفهومی مرتبط با namespace‌ها را توضیح دهیم.
+----------------------------------------------------------------------------------------------------------
 
  A variable denotes a storage location that can contain different values over time. In
  contrast, a constant always represents the same value (more on this later):
@@ -52,14 +31,7 @@ Console.WriteLine (x);
  All values in C# are instances of a type. The meaning of a value and the set of
  possible values a variable can have are determined by its type.
 
- یک متغیر (variable) یک مکان ذخیره‌سازی را نشان می‌دهد که می‌تواند در طول زمان مقادیر مختلفی داشته باشد. در مقابل، یک ثابت (constant) همیشه یک مقدار یکسان را نمایش می‌دهد (در این مورد بعداً بیشتر صحبت خواهیم کرد):
-```csharp
-const int y = 360;
-```
-تمام مقادیر در C# نمونه‌هایی (instances) از یک type هستند. معنی یک مقدار و مجموعهٔ مقادیر ممکنی که یک متغیر می‌تواند داشته باشد، توسط type آن تعیین می‌شود.
-
-
-## Predefined Type Examples
+ ## Predefined Type Examples
  Predefined types are types that are specially supported by the compiler. The int
  type is a predefined type for representing the set of integers that fit into 32 bits of
  memory, from −231 to 231−1, and is the default type for numeric literals within this
@@ -88,6 +60,49 @@ const int y = 360;
  bool lessThanAMile = x < 5280;
  if (lessThanAMile)
   Console.WriteLine ("This will print");
+ 
+ 
+
+## Comments
+
+زبان C# دو سبک متفاوت برای مستندسازی کد منبع ارائه می‌دهد: کامنت‌های تک‌خطی (single-line comments) و کامنت‌های چندخطی (multiline comments). یک single-line comment با دو اسلش رو به جلو شروع می‌شود و تا پایان خط ادامه می‌یابد؛ به عنوان مثال:
+```csharp
+int x = 3;   // Comment about assigning 3 to x
+```
+یک multiline comment با `/*` شروع و با `*/` خاتمه می‌یابد؛ به عنوان مثال:
+
+``` csharp
+int x = 3;   /* This is a comment that
+spans two lines */
+```
+کامنت‌ها می‌توانند تگ‌های مستندسازی XML را در خود جای‌گذاری کنند، که ما آن‌ها را در "XML Documentation" در صفحهٔ 272 توضیح می‌دهیم.
+
+
+
+
+
+ ## Type Basics
+
+یک type الگوی اولیه (blueprint) برای یک مقدار را تعریف می‌کند. در این مثال، از دو literal از نوع int با مقادیر 12 و 30 استفاده می‌کنیم. همچنین یک متغیر از نوع int به نام x تعریف می‌کنیم:
+```csharp
+int x = 12 * 30;
+Console.WriteLine (x);
+```
+
+-----------------------------------------------------------------------------------------------------------------
+
+ از آنجا که بیشتر نمونه‌کدهای این کتاب به type‌هایی از namespace به نام System نیاز دارند، از این به بعد "using System" را حذف خواهیم کرد، مگر اینکه مفهومی مرتبط با namespace‌ها را توضیح دهیم.
+
+-------------------------------------------------------------------------------------------------------------------
+
+ یک متغیر (variable) یک مکان ذخیره‌سازی را نشان می‌دهد که می‌تواند در طول زمان مقادیر مختلفی داشته باشد. در مقابل، یک ثابت (constant) همیشه یک مقدار یکسان را نمایش می‌دهد (در این مورد بعداً بیشتر صحبت خواهیم کرد):
+```csharp
+const int y = 360;
+```
+تمام مقادیر در C# نمونه‌هایی (instances) از یک type هستند. معنی یک مقدار و مجموعهٔ مقادیر ممکنی که یک متغیر می‌تواند داشته باشد، توسط type آن تعیین می‌شود.
+
+
+
 
   ## نمونه‌هایی از Type‌های از پیش تعریف شده
 
