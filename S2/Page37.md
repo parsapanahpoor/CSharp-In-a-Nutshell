@@ -3,7 +3,6 @@ In C#, predefined types (also referred to as built-in types)
  in .NET contains many important types that are not prede
 fined by C# (e.g., DateTime).
 
-در C#، type‌های از پیش تعریف شده (که به آن‌ها built-in types نیز گفته می‌شود) با یک keyword از C# شناسایی می‌شوند. namespace به نام System در NET. شامل بسیاری از type‌های مهم است که توسط C# از پیش تعریف نشده‌اند (برای مثال، DateTime).
 
 ## Custom Types
  In C#, predefined types (also referred to as built-in types)
@@ -31,6 +30,19 @@ public int Convert (int unit)           // Method
  return unit * ratio;
  } 
 }
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+در C#، type‌های از پیش تعریف شده (که به آن‌ها built-in types نیز گفته می‌شود) با یک keyword از C# شناسایی می‌شوند. namespace به نام System در NET. شامل بسیاری از type‌های مهم است که توسط C# از پیش تعریف نشده‌اند (برای مثال، DateTime).
+
+
 
 ## Type‌های سفارشی
 
