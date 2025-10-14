@@ -24,8 +24,6 @@ The same principle is true for a decimal literal:
 decimal d = -1.23M; // Will not compile without the M suffix.
 We describe the semantics of numeric conversions in detail in the following section.
 
--------------------------------------------------------------------------------------
-
 ## Numeric Conversions
 ## Converting between integral types
 Integral type conversions are implicit when the destination type can represent every
@@ -36,7 +34,6 @@ int x = 12345; // int is a 32-bit integer
 long y = x; // Implicit conversion to 64-bit integral type
 short z = (short)x; // Explicit conversion to 16-bit integral type
 
--------------------------------------------------------------------------------------
 
 ## Numeric suffixes
 
@@ -71,8 +68,6 @@ float f = 4.5F;
 decimal d = -1.23M; // بدون suffix M کامپایل نخواهد شد.
 ```
 معناشناسی (semantics) تبدیل‌های عددی را در بخش بعدی به تفصیل شرح می‌دهیم.
-
--------------------------------------------------------------------------------------
 
 ## Numeric Conversions
 
