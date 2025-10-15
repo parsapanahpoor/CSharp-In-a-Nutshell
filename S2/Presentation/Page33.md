@@ -19,8 +19,11 @@ Source Code (.cs files) → Compiler → Assembly (.dll or .exe)
 
 تفاوت:
 
-Application: برنامه مستقل قابل اجرا
-Library: مجموعه کدهای قابل استفاده مجدد (مثل .dll)
+ترجمه Application: برنامه مستقل قابل اجرا
+
+
+
+ترجمه Library: مجموعه کدهای قابل استفاده مجدد (مثل .dll)
 
 
 ## Entry Point
