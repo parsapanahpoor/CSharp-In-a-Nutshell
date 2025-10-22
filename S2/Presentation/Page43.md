@@ -122,12 +122,15 @@ Point p1 = new Point();
 **کلمه ی  `new` برای value types اختیاری است!**
 
 ```csharp
+Point p1 = new Point();
 // روش 1: با new (صریح)
-Point p1 = new Point();  // همه fieldها = 0
-// روش 2: بدون new
+  // همه fieldها = 0
+
 Point p2;
 p2.X = 5;
 p2.Y = 10;
+// روش 2: بدون new
+
 ```
 // ⚠️ باید قبل از استفاده، همه fieldها مقداردهی شوند
 
