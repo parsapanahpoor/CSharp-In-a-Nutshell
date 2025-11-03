@@ -22,7 +22,7 @@ conditional operators.
 Unlike in C and C++, the & and | operators perform (non-short-circuiting) Boolean comparisons when applied to
 bool expressions. e & and | operators perform bitwise operations only when applied to numbers.
 
-##Conditional operator (ternary operator)
+## Conditional operator (ternary operator)
 e conditional operator (more commonly called the ternary operator because it’s the only operator
 that takes three operands) has the form q ? a : b; thus, if condition q is true, a is evaluated,
 otherwise b is evaluated:
